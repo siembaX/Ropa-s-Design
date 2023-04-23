@@ -1,0 +1,262 @@
+.div-gaps {
+  margin-bottom: 20px;
+}
+
+header {
+  background-color: grey;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+header nav ul {
+  display: flex;
+  gap: 16px;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a.active {
+  color: black;
+  transition: 0.3s;
+}
+header nav ul li a:hover {
+  color: black;
+  transition: 0.3s;
+}
+
+.bilboard {
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-image: url(/assets/images/banner.png);
+  height: 87vh;
+  width: 100vw;
+}
+.bilboard p {
+  width: 30%;
+}
+.bilboard button {
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+.bilboard .linehor {
+  margin-bottom: 15px;
+}
+
+.about-me {
+  padding: 120px;
+}
+.about-me p {
+  width: 75%;
+  margin-bottom: 30px;
+}
+.about-me button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+
+.my-projects {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+}
+.my-projects .myFirstDiv {
+  display: flex;
+  width: 100vw;
+  margin-top: 20px;
+  padding: 120px;
+  margin-left: 0;
+  gap: 10px;
+}
+.my-projects .btn2 {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+.my-projects .btn2:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease-in;
+}
+.my-projects .linehor {
+  margin-bottom: 30px;
+}
+
+.testimonials {
+  padding: 120px;
+}
+.testimonials h2 {
+  text-align: center;
+}
+.testimonials h3 {
+  margin-bottom: 20px;
+}
+.testimonials p {
+  width: 70%;
+  margin-bottom: 20px;
+}
+.testimonials button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+
+.contact-me {
+  background-color: black;
+  color: white;
+  padding: 120px;
+}
+.contact-me .mycont-inf h4 {
+  line-height: 90px;
+}
+.contact-me h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact-me form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.contact-me form input {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
+.contact-me form textarea {
+  font-size: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 20px;
+  height: 300px;
+}
+.contact-me button {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+
+.footer {
+  padding: 120px;
+}
+
+.my-projects-page {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
+}
+.my-projects-page .all-btns {
+  margin-bottom: 50px;
+}
+.my-projects-page .btn2 {
+  background-color: transparent;
+  border: 2px solid black;
+  color: black;
+  border-radius: 5px;
+  width: 165px;
+  height: 55px;
+  font-weight: 500;
+}
+.my-projects-page .btn2:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease-in;
+}
+.my-projects-page .linehor {
+  margin-bottom: 30px;
+}
+.my-projects-page h3 {
+  width: 100%;
+}
+.my-projects-page .color-schemes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.my-projects-page .color-schemes .col-schm1 {
+  display: flex;
+  gap: 16px;
+}
+.my-projects-page .color-schemes .rect1 {
+  background-color: #ffffff;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+}
+.my-projects-page .color-schemes .rect2 {
+  background-color: #30373A;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+}
+.my-projects-page .color-schemes .rect3 {
+  background-color: #f6CD20;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffff;
+}
+.my-projects-page .color-schemes .rect4 {
+  background-color: #44C15A;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ffffff;
+}
+.my-projects-page .color-schemes .rect5 {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+}
+
+.genesis-afriblocks {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  padding: 120px;
+  margin-bottom: 80px;
+}
+
+.feane-website {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=style.css.map */
